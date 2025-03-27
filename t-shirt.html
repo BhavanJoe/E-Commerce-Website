@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t-shirt</title>
+    <link rel="stylesheet" href="t-shirt.css">
+    
+</head>
+<body background="stadbg.jpg">
+    <header>
+        <h1 align="center">T-Shirts</h1>
+    </header>
+    <nav>
+        <h3 align="left"><a href="e-commerce.html">back</a></h3>
+    </nav>
+    <div>
+        <p>
+            <img src="tshirt.jpg"><br>
+            <h2 align="center">Field T-shirt</h2>
+            <h3 align="center">CSK Field Tshirt</h3>
+            <h3 align="center">Rs.800</h3>
+            <input type="number" id="qnt" placeholder="quantity"><br><br>
+            <select id="size">
+                <option>Size:Small</option>
+                <option>Size:Medium</option>
+                <option>Size:Large</option>
+                <option>Size:X-Large</option>
+            </select><br><br>
+            <button value="add" onclick="order()">Cart</button>
+        </p><br><br>
+    </div>
+    <div class="white">
+        <p>
+            <img src="tshirt2.jpg"><br>
+            <h2 align="center">White Tshirt</h2>
+            <h3 align="center">CSK White Tshirt</h3>
+            <h3 align="center">Rs.500</h3>
+            <input type="number" id="qnt1" placeholder="quantity"><br><br>
+            <select id="size1">
+                <option>Size:Small</option>
+                <option>Size:Medium</option>
+                <option>Size:Large</option>
+                <option>Size:X-Large</option>
+            </select><br><br>
+            <button value="add" onclick="order1()">Cart</button>
+        </p>
+    </div>
+    <div class="training">
+        <P>
+            <img src="training.jpg"><br>
+            <h2 align="center">Training Tshirt</h2>
+            <h3 align="center">CSK Training Tshirt</h3>
+            <h3 align="center">Rs.650</h3>
+            <input type="number" id="qnt2" placeholder="quantity"><br><br>
+            <select id="size2">
+                <option>Size:Small</option>
+                <option>Size:Medium</option>
+                <option>Size:Large</option>
+                <option>Size:X-Large</option>
+            </select><br><br>
+            <button value="add" onclick="order2()">Cart</button>
+        </P>
+    </div>
+    <div class="customize">
+        <p>
+            <h2 align="center">Customized T-Shirt</h2>
+            <h3 align="center">Customize your Tshirt</h3>
+            <h3 align="center">Rs.1000</h3>
+            <input type="number" id="qnt" placeholder="quantity"><br><br>
+            <select id="size">
+                <option>Size:Small</option>
+                <option>Size:Medium</option>
+                <option>Size:Large</option>
+                <option>Size:X-Large</option>
+            </select><br>
+            <nav>
+                <h5><a href="custom.html">customize</a></h5>
+            </nav>
+        </p>
+    </div>
+    <script>
+        function order(){
+            var quantity=document.getElementById("qnt");
+            var sz=document.getElementById("size");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }
+        function order1(){
+            var quantity=document.getElementById("qnt1");
+            var sz=document.getElementById("size1");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }function order2(){
+            var quantity=document.getElementById("qnt2");
+            var sz=document.getElementById("size2");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body background="stadbg.jpg">
+    <header>
+        <h1 align="center">Customize Your T-Shirt</h1>
+    </header>
+    <nav>
+        <h3 align="left"><a href="t-shirt.html">back</a></h3>
+    </nav>
+    <div>
+        <form>
+            <select id="select">
+                <option>Select a T-Shirt</option>
+                <option>Field T-Shirt</option>
+                <option>White T-Shirt</option>
+                <option>Training T-Shirt</option>
+            </select><br>
+            <h5>Enter your Name:</h5>
+            <input type="text" id="name" placeholder="Eg:Dhoni" required><br>
+            <h5>Enter your Number:</h5>
+            <input type="tel" id="phone" placeholder="Eg:7" required><br><br>
+            <button onclick="cus()">Customize & Cart</button>
+        </form>
+    </div>
+    <script>
+        function cus(){
+            var user=document.getElementById("name");
+            var cell=document.getElementById("phone");
+            var ts=document.getElementById("select");
+        
+            if(user.value && cell.value !="")
+        {
+            alert("Customized & added to cart")
+        }
+        else{
+            alert("fill required details")
+        }
+    }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+header{
+    background:linear-gradient(45deg, rgb(222, 155, 39) ,rgb(242, 242, 113));
+    color:rgb(0, 34, 255);
+    position: sticky;
+    top: 10px;
+}
+p{
+    color: aqua;
+}
+nav{
+    border: 2px;
+    border-style: solid;
+    width:240px;
+    height:200px;
+    padding-left: 30px;
+    padding-right:60px;
+    padding-top: 10px;
+    color: transparent;
+    border-radius: 25%;
+    margin-left: 480px;
+    margin-top: 150px;
+    background: rgba(107, 97, 97, 0.403);
+}
+nav a{
+    color: rgb(243, 186, 95);
+    text-shadow: yellow;
+}
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}

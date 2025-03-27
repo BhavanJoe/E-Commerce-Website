@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuskey</title>
+    <link rel="stylesheet" href="cuskey.css"
+</head>
+<body background="stadbg.jpg">
+    <header>
+        <h1 align="center">Customize Your Keychains</h1>
+    </header>
+    <nav>
+        <h3 align="left"><a href="keychains.html">back</a></h3>
+    </nav>
+    <h2 align="center">You Can Customize Your Keychains with your Name or Customized Message</h2>
+    <div>
+        <form>
+            <select id="select">
+                <option>Select a keychain</option>
+                <option>Yellove</option>
+                <option>Logo</option>
+                <option>Logo T-Shirt</option>
+                <option>Thala</option>
+            </select><br>
+            <h5>Enter your Name or Message:</h5>
+            <input type="text" id="name" placeholder="Eg:Tha7a For a Reason" required><br><br>
+            <button onclick="cus()">Customize & Cart</button>
+        </form>
+    </div>
+    <script>
+        function cus(){
+            var user=document.getElementById("name");
+            var ts=document.getElementById("select");
+        
+            if(user.value!="")
+        {
+            alert("Customized & added to cart")
+        }
+        else{
+            alert("fill required details")
+        }
+    }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body background="stadbg.jpg">
+    <header>
+        <h1 align="center">Cart</h1>
+    </header>
+    <nav>
+        <h3 align="left"><a href="e-commerce.html">back</a></h3>
+    </nav>
+    <h1 align="center">You have Added Some things to Cart</h1>
+    <div>
+        <h2 align="center">Fill following details to place order</h2>
+        <form>
+            <h4>Name:</h4>
+            <input type="text" id="name" placeholder="Enter your Name" required><br>
+            <h4>Email:</h4>
+            <input type="email" id="mail" placeholder="Enter your E-mail" required><br>
+            <h4>Phone No:</h4>
+            <input type="tel" id="ph" placeholder="Enter your Ph.Num"required><br>
+            <h4>Address:</h4>
+            <input type="text" id="ad"placeholder="Enter your Address" required><br>
+            <h4>Payment Mode:</h4>
+            <select>
+                <option>select payment mode</option>
+                <option>cash on delivery</option>
+                <option>online payment</option>
+            </select><br><br>
+            <button onclick="place()">Place order</button>
+        </form>
+    </div>
+    <script>
+        function place(){
+            var user=document.getElementById("name")
+            var email=document.getElementById("mail")
+            var phone=document.getElementById("ph")
+            var address=document.getElementById("ad")
+            if(user.value&&email.value&&phone.value&&address.value !="")
+            alert("order placed")
+        else
+        alert("fill required details")
+        }
+    </script>
+</body>
+</html>

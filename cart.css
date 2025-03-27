@@ -1,0 +1,40 @@
+header{
+    background-color: blue;
+    color:yellow;
+    position: sticky;
+    top: 10px;
+}
+div{
+    border: 5px;
+    border-style: ridge;
+    border-color: transparent;
+    width: 350px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    margin-left: 320px;
+    background: rgba(241, 241, 241, 0.648);
+}
+div input[type="text"]
+{
+    width: 350px;
+}
+div input[type="tel"]
+{
+    width: 350px;
+}
+div input[type="email"]
+{
+    width: 350px;
+}
+div select{
+    width: 350px;
+}
+div button{
+    margin-left: 150px;
+    background-color: yellow;
+}
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}

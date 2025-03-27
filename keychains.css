@@ -1,0 +1,64 @@
+header{
+    background-color: blue;
+    color:yellow;
+    position: sticky;
+    top: 10px;
+}
+div{
+    border:5px;
+    border-style: solid;
+    border-color: transparent;
+    width: 250px;
+    height:550px;
+    margin-left: 50px;
+    box-shadow: 05px 10px 10px 15px grey;
+    background: rgba(241, 241, 241, 0.648);
+}
+div h2{
+    background-color: blue;
+    color: yellow;
+}
+div input[type="number"]{
+    margin-left: 30px;
+    width:175px;
+}
+.white{
+    margin-left: 450px;
+    margin-top:-560px;
+    height:550px;
+}
+button{
+    margin-left: 100px;
+}
+.training{
+    margin-left: 830px;
+    margin-top:-560px;
+}
+select{
+    width:150px;
+    margin-left: 45px;
+}
+.customize{
+    margin-left: 450px;
+    margin-top:-550px ;
+    height: 300px;
+}
+.customize nav{
+    margin-left: 90px;
+}
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+div p img{
+    padding-left: 15px;
+}
+div button{
+    margin-left: 80px;
+    margin-top: 5px;
+    width: 75px;
+    background-color: green;
+}
+.thala{
+    margin-top: 70px;
+}

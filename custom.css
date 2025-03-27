@@ -1,0 +1,27 @@
+header{
+    background-color: blue;
+    color: yellow;
+    position: sticky;
+    top: 10px;
+}
+div{
+    border:5px;
+    height:250px;
+    width: 180px;
+    border-style: double;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 25px;
+    margin-left: 470px;
+    margin-top: 100px;
+    background: rgba(241, 241, 241, 0.648);
+}
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+div button{
+    margin-left: 23px;
+    margin-top: 5px;
+    background-color: green;
+}

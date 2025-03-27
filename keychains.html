@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keychains</title>
+    <link rel="stylesheet" href="keychains.css">
+</head>
+<body background="stadbg.jpg">
+    <header>
+        <h1 align="center">Keychains</h1>
+    </header>
+    <nav>
+        <h3 align="left"><a href="e-commerce.html">back</a></h3>
+    </nav>
+    <div>
+        <p>
+            <img src="key1.jpg"><br>
+            <h2 align="center">Yellove</h2>
+            <h3 align="center">Yellove Keychain</h3>
+            <h3 align="center">Rs.100</h3>
+            <input type="number" id="qnt" placeholder="quantity"><br><br>
+            <select id="size">
+                <option>Size:Small</option>
+                <option>Size:Large</option>
+            </select><br><br>
+            <button value="add" onclick="order()">Cart</button>
+        </p><br><br>
+    </div>
+    <div class="white">
+        <p>
+            <img src="key2.jpg"><br>
+            <h2 align="center">Logo Keychain</h2>
+            <h3 align="center">CSK Logo Keychain</h3>
+            <h3 align="center">Rs.150</h3>
+            <input type="number" id="qnt1" placeholder="quantity"><br><br>
+            <select id="size1">
+                <option>Size:Small</option>
+                <option>Size:Large</option>
+            </select><br><br>
+            <button value="add" onclick="order1()">Cart</button>
+        </p>
+    </div>
+    <div class="training">
+        <P>
+            <img src="key3.jpg"><br>
+            <h2 align="center">Logo Tshirt Keychain</h2>
+            <h3 align="center">CSK logo Tshirt</h3>
+            <h3 align="center">Rs.130</h3>
+            <input type="number" id="qnt2" placeholder="quantity"><br><br>
+            <select id="size2">
+                <option>Size:Small</option>
+                <option>Size:Medium</option>
+                <option>Size:Large</option>
+                <option>Size:X-Large</option>
+            </select><br><br>
+            <button value="add" onclick="order2()">Cart</button>
+        </P>
+    </div>
+    <div class="thala">
+        <P>
+            <img src="key4.jpg"><br>
+            <h2 align="center">Thala Keychain</h2>
+            <h3 align="center">Dhoni Themed Keychain</h3>
+            <h3 align="center">Rs.170</h3>
+            <input type="number" id="qnt3" placeholder="quantity"><br><br>
+            <select id="size3">
+                <option>Size:Small</option>
+                <option>Size:Large</option>
+            </select><br><br>
+            <button value="add" onclick="order3()">Cart</button>
+        </P>
+    </div>
+    <div class="customize">
+        <p>
+            <h2 align="center">Customized Keychain</h2>
+            <h3 align="center">Customize Keychains</h3>
+            <h3 align="center">Rs.300</h3>
+            <input type="number" id="qnt" placeholder="quantity"><br><br>
+            <select>
+                <option>Size:Small</option>
+                <option>Size:Large</option>
+            </select><br>
+            <nav>
+                <h5><a href="cuskey.html">customize</a></h5>
+            </nav>
+        </p>
+    </div>
+    <script>
+        function order(){
+            var quantity=document.getElementById("qnt");
+            var sz=document.getElementById("size");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }
+        function order1(){
+            var quantity=document.getElementById("qnt1");
+            var sz=document.getElementById("size1");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }
+        function order2(){
+            var quantity=document.getElementById("qnt2");
+            var sz=document.getElementById("size2");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }
+        function order3(){
+            var quantity=document.getElementById("qnt3");
+            var sz=document.getElementById("size3");
+            if(quantity.value!="")
+        {
+            alert("added to cart")
+        }
+            else
+            alert("Select quantity and Size")
+        }
+    </script>
+</body>
+</html>
